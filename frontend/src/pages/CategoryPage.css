@@ -1,0 +1,62 @@
+.category-page {
+  max-width: 520px;
+  margin: auto;
+  min-height: 100vh;
+  background: #fff;
+  padding: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #ff5a00;
+  font-weight: bold;
+}
+
+.category-page h1 {
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.category-page p {
+  color: #666;
+}
+
+.restaurant-list {
+  margin-top: 25px;
+}
+
+.restaurant-box {
+  background: white;
+  border-radius: 20px;
+  padding: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+}
+
+.restaurant-emoji {
+  font-size: 65px;
+}
+
+.restaurant-box h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.offer {
+  color: #ff5a00 !important;
+  font-weight: bold;
+}
+
+.restaurant-box button {
+  margin-left: auto;
+  background: #ff5a00;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: bold;
+}

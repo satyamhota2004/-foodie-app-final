@@ -1,0 +1,54 @@
+.search-page {
+  max-width: 520px;
+  margin: auto;
+  min-height: 100vh;
+  background: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-top input {
+  width: 100%;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.search-page h2 {
+  margin-top: 25px;
+}
+
+.search-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.search-emoji {
+  font-size: 45px;
+}
+
+.search-card h3 {
+  margin: 0;
+}
+
+.search-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.search-card button {
+  margin-left: auto;
+  background: white;
+  color: #10a66a;
+  border: 1px solid #ddd;
+  padding: 8px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}

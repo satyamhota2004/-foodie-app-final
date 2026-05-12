@@ -1,0 +1,51 @@
+.admin-page {
+  padding: 40px;
+  min-height: 100vh;
+  background: #fff7ed;
+}
+
+.admin-page h1 {
+  font-size: 40px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.admin-subtitle {
+  color: #666;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.admin-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.admin-card {
+  background: white;
+  padding: 30px;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.admin-card:hover {
+  transform: translateY(-8px);
+}
+
+.admin-card h2 {
+  color: #ff5a00;
+  margin-bottom: 12px;
+}
+
+.admin-card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .admin-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
